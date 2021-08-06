@@ -1,0 +1,19 @@
+.bar {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding: 3px;
+}
+.filled {
+  background-color: #a51919;
+  width: 1rem;
+  border-radius: 0 0 5px 5px;
+}
+.notfilled {
+  background-color: #a56060;
+  height: 100%;
+  width: 1rem;
+}
+.label {
+  font-size: 0.7em;
+}

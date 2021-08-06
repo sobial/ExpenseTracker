@@ -1,0 +1,24 @@
+.filter_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 5px;
+}
+.color {
+  background-color: #e0dddd;
+}
+.onethird {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+select {
+  width: 100%;
+}
+label {
+  padding: 3px;
+}
+.shadow {
+  box-shadow: 0 3px 10px rgb(0, 0, 0);
+}

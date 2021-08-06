@@ -1,0 +1,33 @@
+.expense-item {
+  background: #969594;
+  padding: 20px;
+  width: max-width;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+.date-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  /* background-color: blueviolet; */
+}
+.price-item {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #a51919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.title-item {
+  text-align: start;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #313030;
+}

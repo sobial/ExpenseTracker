@@ -1,0 +1,52 @@
+.expenseForm {
+  display: flex;
+  background-color: red;
+}
+.form-wrapper {
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 5px; */
+}
+.col {
+  width: 50%;
+  /* justify-content: center; */
+  display: flex;
+  padding: 5px;
+}
+input {
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #969594;
+  width: 100%;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.modal {
+  padding: 5px;
+  margin: 5px;
+  max-width: 50%;
+}
+
+button {
+  background-color: rgb(85, 109, 78);
+  width: 100%;
+  border-radius: 4px;
+}
+input:hover {
+  background-color: rgb(140, 153, 136);
+}
+.add-expense-card {
+  padding: 5px;
+}
+.add-expense-button {
+  justify-content: center;
+}
